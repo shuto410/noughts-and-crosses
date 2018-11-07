@@ -26,7 +26,7 @@ void game(){
         }
 
         board[inX][inY] = turn;
-        if(isWin(inX, inY)){
+        if(isWin(board, inX, inY)){
             printf("%d P Win!\n", turn);
             return;
         }
