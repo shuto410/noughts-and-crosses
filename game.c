@@ -36,7 +36,7 @@ void game(){
 
 bool isWin(int board[][3], int x_, int y_){
     int turn = board[x_][y_];
-    int boardForJudge[5][5];
+    int boardForJudge[5][5] = { 0 };
     int x = x_ + 1;
     int y = y_ + 1;
 
