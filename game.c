@@ -11,7 +11,7 @@ void game(){
         int turn = (int)!isFirst + 1;
         printf("%d P turn\n", turn);  
         
-        for(int i = 0; i < 3; i++){
+        for(int i = 0; i < BOARD_SIZE; i++){
             for(int j = 0; j < BOARD_SIZE; j++){
                 printf("%d ", board[i][j]);
             }
