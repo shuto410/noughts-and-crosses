@@ -11,7 +11,7 @@ void game(){
         printf("%d P turn\n", turn);  
         
         for(int i = 0; i < 3; i++){
-            for(int j = 0; j < 3; j++){
+            for(int j = 0; j < 5; j++){
                 printf("%d ", board[i][j]);
             }
             printf("\n");
